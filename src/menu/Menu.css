@@ -1,3 +1,40 @@
-.main-menu a{
+.main-menu {
+    background-color: #333;
     color: white;
-}
+    padding: 20px;
+  }
+  
+  .main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-menu li {
+    margin: 0 15px;
+  }
+  
+  .main-menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .main-menu a:hover {
+    color: #007bff;
+  }
+  
+  .active {
+    color: #007bff;
+  }
+  
+  .logout-link {
+    cursor: pointer;
+  }
+  
+  .logout-link:hover {
+    text-decoration: underline;
+  }
+  
