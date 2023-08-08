@@ -39,4 +39,12 @@
   input[type="submit"]:hover {
     background-color: #0056b3;
   }
+
+  .error {
+    color: #e74c3c; /* Color de error rojo */
+    font-size: 0.9rem;
+    margin-top: 5px;
+    display: block;
+  }
+  
   

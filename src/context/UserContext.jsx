@@ -7,7 +7,7 @@ const UserContextProvider = ({ children }) => { // Pasa 'children' como prop
   
   useEffect(() => {
     setUsuario({
-      name: "Diego Alonso MOLINA",
+      name: "Diego Alonso Molina",
       registered: "22/Agosto/2022"
     });
   }, []);
